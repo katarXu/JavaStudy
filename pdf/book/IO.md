@@ -1,6 +1,36 @@
-## 输入	Scanner类
+## 输入
 
 System.in 标准输入
+
+`File(String fileName)`
+
+### Scanner类
+
+```java
+Scanner(InputStream in);
+Scanner(File f);
+String nextLine();
+String next();
+int nextInt();
+double nextDouble();
+
+boolean hasNext();
+boolean hasNextInt();
+boolean hasNextDouble();
+```
+
+### Console类
+
+```java
+
+```
+
+## 输出
+
+```java
+PrintWriter(File fileName);
+System.out.print();
+```
 
 
 
